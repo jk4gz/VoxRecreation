@@ -1,0 +1,270 @@
+p {
+	color: #ffffff;
+	font-family: Helvetica, sans-serif;
+	font-size: 23px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+span {
+	background-color: black;
+}
+
+.header {
+	height: 150px;
+	width: 100%;
+	display: inline-block;
+}
+
+.header img {
+	display: block;
+	height: 55%;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+.articlesBigDiv {
+	width: 100%;
+	height: 525px;
+}
+
+.article1 {
+	background-image: url(Images/jaws.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 98%;
+	width: 23%;
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: top;
+}
+
+.article2 {
+	background-image: url(Images/solo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 98%;
+	width: 23%;
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: top;
+}
+
+.article3 {
+	background-image: url(Images/spotify2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 98%;
+	width: 43%;
+	display: inline-block;
+	margin-left: 40px;
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 1400px) {
+	p {
+		color: #ffffff;
+		font-family: Helvetica, sans-serif;
+		font-size: 18px;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	span {
+		background-color: black;
+	}
+
+	.header {
+		height: 150px;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.header img {
+		display: block;
+		height: 50%;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 30px;
+	}
+
+	.articlesBigDiv {
+		width: 100%;
+		height: 700px;
+		padding-bottom: 50px;
+	}
+
+	.article1 {
+		background-image: url(Images/jaws.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 50%;
+		width: 350;
+		display: inline-block;
+		margin-left: 25%;
+	}
+
+	.article2 {
+		background-image: url(Images/solo.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 50%;
+		width: 350;
+		display: inline-block;
+		margin-left: 40px;
+		margin-right: 23%;
+	}
+
+	.article3 {
+		background-image: url(Images/spotify2.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 50%;
+		width: auto;
+		display: inline-block;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 1015px) {
+	p {
+		color: #ffffff;
+		font-family: Helvetica, sans-serif;
+		font-size: 13px;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	span {
+		background-color: black;
+	}
+
+	.header {
+		height: 150px;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.header img {
+		display: block;
+		height: 45%;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 30px;
+	}
+
+	.articlesBigDiv {
+		width: 100%;
+		height: 700px;
+		padding-bottom: 50px;
+	}
+
+	.article1 {
+		background-image: url(Images/jaws.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 50%;
+		width: 350;
+		display: inline-block;
+		margin-left: 25%;
+	}
+
+	.article2 {
+		background-image: url(Images/solo.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 50%;
+		width: 350;
+		display: inline-block;
+		margin-left: 40px;
+		margin-right: 23%;
+	}
+
+	.article3 {
+		background-image: url(Images/spotify2.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 50%;
+		width: auto;
+		display: inline-block;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-top: 1%;
+	}
+}
+
+@media only screen and (max-width: 681px) {
+	p {
+		color: #ffffff;
+		font-family: Helvetica, sans-serif;
+		font-size: 10px;
+		margin-left: 20px;
+		margin-right: 100px;
+	}
+
+	span {
+		background-color: black;
+	}
+
+	.header {
+		height: 100px;
+		width: 100%;
+		display: inline-block;
+	}
+
+	.header img {
+		display: block;
+		height: 30%;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 30px;
+	}
+
+	.articlesBigDiv {
+		width: 100%;
+		height: 400px;
+		padding-bottom: 50px;
+	}
+
+	.article1 {
+		background-image: url(Images/jaws2.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 40%;
+		width: 50%;
+		display: inline-block;
+		margin-left: 33%;
+		margin-right: 25%;
+		margin-bottom: 20px;
+	}
+
+	.article2 {
+		background-image: url(Images/solo1.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 40%;
+		width: 50%;
+		display: inline-block;
+		margin-left: 33%;
+		margin-right: 25%;
+		margin-bottom: 10px;
+	}
+
+	.article3 {
+		background-image: url(Images/spotify2.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 40%;
+		width: 50%;
+		display: inline-block;
+		margin-left: 33%;
+		margin-right: 25%;
+	}
+}
